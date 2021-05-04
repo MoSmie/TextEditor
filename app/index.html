@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TextEditor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onload="initiateTextEditor()">
+  <div id="container">
+    <h2 class="title">Text<span>Editor </span></h2>
+    <div id="error"></div>
+    <div id="header">
+      <button onclick="format('bold')"> <img src="/img/bold.svg" class="action" /></button>
+      <button onclick="format('italic')"> <img src="/img/italic.svg" class="action"></button>
+      <button onclick="format('insertUnorderedList')"> <img src="/img/list.svg" class="action" /></button>
+    </div>
+    <div id="textEditor" contenteditable="true"></div>
+    <button id='saveBtn'>SAVE</button>
+  </div>
+</body>
+<script src="app.js" charset="utf-8"></script>
+
+</html>
