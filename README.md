@@ -3,4 +3,4 @@
     - npm install 
     - node server.js
 
-<img width="814" alt="TextEditor" src="https://user-images.githubusercontent.com/22214108/118459935-e5e9f780-b704-11eb-9911-6a145cb1e138.png">
+<img width="809" alt="SimpleTextEditor" src="https://user-images.githubusercontent.com/22214108/118460269-34979180-b705-11eb-896b-7211a56db0a6.png">
